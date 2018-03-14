@@ -1,6 +1,6 @@
 FROM daftano/ubuntu:16.04
 LABEL maintainer="Davide Fiorentino lo Regio"
-LABEL maintainer-twitter"@daftano"
+LABEL maintainer-twitter="@daftano"
 
 ARG JAVA_VERSION=8
 ENV JAVA_HOME=/usr/lib/jvm/java-${JAVA_VERSION}-oracle
